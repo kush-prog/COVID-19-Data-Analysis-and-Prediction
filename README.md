@@ -54,9 +54,9 @@ Open `Covid-19.ipynb` and execute the cells sequentially.
 ## 👥 Project Team
 🔹 **Team Leader:** Kush Chauhan  
 🔹 **Contributors:**  
-   - [Varun Kumar Parawa](https://github.com/member1profile)  
+   - [Varun Kumar Parawa](https://github.com/varunkumarparawa)  
    - [Kanak Jain](https://github.com/Kanakjain04)  
-   - [Tanya Chaudhary](https://github.com/member3profile)  
+   - [Tanya Chaudhary](https://github.com/tanyachgithub)  
 
 🔗 **Repository Link:** [GitHub Repo URL]
 
