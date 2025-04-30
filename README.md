@@ -1,63 +1,47 @@
-# 📌 Covid-19 Data Analysis & Machine Learning
+# COVID-19 Data Analysis and Prediction
 
-## 📖 Overview
-This project applies various Machine Learning (ML) techniques to analyze and predict Covid-19 cases based on the provided dataset. It includes both traditional ML models and advanced techniques like PCA and ANN (Artificial Neural Networks).
+This project analyzes COVID-19 data using Python in a Jupyter Notebook. It involves data preprocessing, visualization, and applying machine learning algorithms for prediction and clustering.
 
-## 📂 Dataset
-- The dataset used is **full_grouped.csv**.
-- It contains Covid-19 case statistics, including:
-  - Confirmed Cases
-  - Recovered Cases
-  - Deaths
-  - Active Cases (Derived Feature)
+## 📌 Features
 
-## 🛠️ Implemented Machine Learning Models
-The project explores multiple ML techniques:
-1. **Linear Regression** – For basic predictive modeling.
-2. **Random Forest Regressor** – To improve prediction accuracy using an ensemble method.
-3. **K-Means Clustering** – For grouping data (if applicable).
-4. **Artificial Neural Network (ANN)** – Implemented using MLPRegressor.
-5. **Principal Component Analysis (PCA) + ANN** – Dimensionality reduction for efficient learning.
-6. **Linear Discriminant Analysis (LDA)** – For feature selection and projection.
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Visualizations using Matplotlib and Seaborn
+- Application of Machine Learning Models:
+  - Linear Regression
+  - Random Forest
+  - Decision Tree
+  - K-Means Clustering
+- Prediction and Evaluation of COVID-19 trends
 
-## 📌 Installation & Usage
-### **1️⃣ Clone the Repository**
-```sh
- git clone https://github.com/yourusername/your-repo-name.git
- cd your-repo-name
-```
+## 🧰 Technologies Used
 
-### **2️⃣ Install Required Libraries**
-```sh
- pip install -r requirements.txt
-```
-> *Ensure Jupyter Notebook is installed and accessible.*
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-### **3️⃣ Run the Notebook**
-```sh
- jupyter notebook
-```
-Open `Covid-19.ipynb` and execute the cells sequentially.
+## 📁 File Structure
 
-## 📊 Results & Visualizations
-- **Model Comparisons:** MSE (Mean Squared Error) calculated for all models.
-- **Feature Importance (LDA):** Visualized to understand significant contributors.
-- **PCA Projection:** Helps in dimensionality reduction and visualization.
-- **ANN Performance:** Evaluated using training/test error.
+- `P1-Covid19.ipynb` – Main notebook containing the complete analysis and model implementation
 
-## 🚀 Future Improvements
-- Implementing **Deep Learning models (CNN/LSTM)** for time-series prediction.
-- Enhancing **data cleaning & feature engineering** for better model accuracy.
-- Exploring **Hyperparameter tuning** for optimal performance.
+## 🧪 How to Run
 
----
-## 👥 Project Team
-🔹 **Team Leader:** Kush Chauhan  
-🔹 **Contributors:**  
-   - [Varun Kumar Parawa](https://github.com/varunkumarparawa)  
-   - [Kanak Jain](https://github.com/Kanakjain04)  
-   - [Tanya Chaudhary](https://github.com/tanyachgithub)  
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+Launch Jupyter and open the notebook:
 
-🔗 **Repository Link:** [GitHub Repo URL]
+bash
+Copy
+Edit
+jupyter notebook P1-Covid19.ipynb
+Run all cells sequentially
 
+📊 Output
+Visual insights on COVID-19 dataset
 
+Trained models with evaluation metrics and predictions
